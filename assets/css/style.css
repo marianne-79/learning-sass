@@ -16,11 +16,11 @@ body {
 .move {
   max-width: 400px;
   max-height: 475px;
-  font-family: Yu Gothic UI;
+  font-family: system-ui;
 }
 
 .move h2 {
-  color: #FF6836;
+  color: #E70739;
 }
 
 .move .texte {
@@ -41,10 +41,34 @@ body {
 .cercle {
   position: absolute;
   left: 310px;
-  top: 8px;
+  top: -650px;
 }
 
 .static {
   background-color: white;
+  color: #817974;
+  font-family: system-ui;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: -130px;
+  z-index: 1;
+  position: relative;
+}
+
+.static .timer {
+  width: 15px;
+  height: 15px;
+}
+
+.static .coms {
+  width: 15px;
+  height: 15px;
+  padding-left: 10px;
+}
+
+.all {
+  max-width: 400px;
+  max-height: 475px;
 }
 /*# sourceMappingURL=style.css.map */

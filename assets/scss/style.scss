@@ -15,9 +15,9 @@ body {
 .move {
     max-width: 400px;
     max-height: 475px;
-    font-family: Yu Gothic UI;
+    font-family: system-ui;
     h2 {
-        color: #FF6836;
+        color: #E70739;
     }
     .texte {
         padding: 30px;
@@ -32,16 +32,37 @@ body {
     position: relative;
     margin-top: -10px;
 }
-// je suis pas sûre mais j'essaye de faire du Sass...
 .cercle {
     position: absolute;
     left: 310px;
-    top: 8px;
+    top: -650px;
     }
 
 .static {
     background-color: white;
+    color: #817974;
+    font-family: system-ui;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: -130px;
+    z-index: 1;
+    position: relative;
+
     .timer {
 
+    width: 15px;
+    height: 15px;
+    
     }
+    .coms {
+    width: 15px;
+    height: 15px;
+    padding-left: 10px;
+        }
+}
+.all {
+    max-width: 400px;
+    max-height: 475px;
+
 }
