@@ -16,6 +16,8 @@ body {
     max-width: 400px;
     max-height: 475px;
     font-family: system-ui;
+    transition: margin 2s;
+
     h2 {
         color: #E70739;
     }
@@ -65,4 +67,8 @@ body {
     max-width: 400px;
     max-height: 475px;
 
+}
+
+.move:hover {
+    margin: -200px;
 }

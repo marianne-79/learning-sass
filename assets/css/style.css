@@ -17,6 +17,8 @@ body {
   max-width: 400px;
   max-height: 475px;
   font-family: system-ui;
+  -webkit-transition: margin 2s;
+  transition: margin 2s;
 }
 
 .move h2 {
@@ -70,5 +72,9 @@ body {
 .all {
   max-width: 400px;
   max-height: 475px;
+}
+
+.move:hover {
+  margin: -200px;
 }
 /*# sourceMappingURL=style.css.map */
