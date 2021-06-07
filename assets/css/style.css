@@ -4,7 +4,7 @@ body {
 
 .ima {
   max-width: 400px;
-  max-height: 475px;
+  max-height: 550px;
   position: relative;
   overflow: hidden;
 }
@@ -15,10 +15,12 @@ body {
 
 .move {
   max-width: 400px;
-  max-height: 475px;
+  max-height: 400px;
   font-family: system-ui;
-  -webkit-transition: margin 2s;
-  transition: margin 2s;
+  -webkit-transition: margin 1s;
+  transition: margin 1s;
+  position: absolute;
+  margin-top: -20px;
 }
 
 .move h2 {
@@ -26,9 +28,9 @@ body {
 }
 
 .move .texte {
-  padding: 30px;
+  padding: 42px;
   background-color: white;
-  margin-top: -145px;
+  margin-top: -125px;
 }
 
 .move p {
@@ -41,9 +43,9 @@ body {
 }
 
 .cercle {
-  position: absolute;
-  left: 310px;
-  top: -650px;
+  position: fixed;
+  left: 315px;
+  top: 0px;
 }
 
 .static {
@@ -51,16 +53,17 @@ body {
   color: #817974;
   font-family: system-ui;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  margin-top: -130px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-top: 160px;
   z-index: 1;
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .static .timer {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
 }
 
 .static .coms {
@@ -75,6 +78,6 @@ body {
 }
 
 .move:hover {
-  margin: -200px;
+  margin-top: -180px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,28 +3,32 @@ body {
 }
 .ima {
     max-width: 400px;
-    max-height: 475px;
+    max-height: 550px;
     position: relative;
     overflow: hidden;
-
+    
     img {
         margin: 0 -100px -100px -190px;
+        
     }
 }
 
 .move {
     max-width: 400px;
-    max-height: 475px;
+    max-height: 400px;
     font-family: system-ui;
-    transition: margin 2s;
-
+    transition: margin 1s;
+    position: absolute;
+    margin-top: -20px;
+    
     h2 {
         color: #E70739;
     }
     .texte {
-        padding: 30px;
+        padding: 42px;
         background-color: white;
-        margin-top: -145px;
+        margin-top: -125px;
+        
     }
     p { 
         color: #817974;
@@ -33,11 +37,12 @@ body {
 .rectangle {
     position: relative;
     margin-top: -10px;
+    
 }
 .cercle {
-    position: absolute;
-    left: 310px;
-    top: -650px;
+    position: fixed;
+    left: 315px;
+    top: 0px;
     }
 
 .static {
@@ -45,17 +50,16 @@ body {
     color: #817974;
     font-family: system-ui;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    margin-top: -130px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-top: 160px;
     z-index: 1;
-    position: relative;
+    position: sticky;
 
     .timer {
-
-    width: 15px;
-    height: 15px;
-    
+    width: 12px;
+    height: 12px;
+        
     }
     .coms {
     width: 15px;
@@ -70,5 +74,6 @@ body {
 }
 
 .move:hover {
-    margin: -200px;
+ margin-top: -180px;
+
 }
