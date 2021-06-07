@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+.ima {
+    max-width: 400px;
+    max-height: 475px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        margin: 0 -100px -100px -190px;
+    }
+}
+
+.move {
+    max-width: 400px;
+    max-height: 475px;
+    font-family: Yu Gothic UI;
+    h2 {
+        color: #FF6836;
+    }
+    .texte {
+        padding: 30px;
+        background-color: white;
+        margin-top: -145px;
+    }
+    p { 
+        color: #817974;
+       }
+}
+.rectangle {
+    position: relative;
+    margin-top: -10px;
+}
+// je suis pas sûre mais j'essaye de faire du Sass...
+.cercle {
+    position: absolute;
+    left: 310px;
+    top: 8px;
+    }
+
+.static {
+    background-color: white;
+    .timer {
+
+    }
+}
